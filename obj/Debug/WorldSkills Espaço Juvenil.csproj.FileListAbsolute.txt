@@ -1,0 +1,9 @@
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\bin\Debug\WorldSkills Espaço Juvenil.exe
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\bin\Debug\WorldSkills Espaço Juvenil.pdb
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\obj\Debug\WorldSkills Espaço Juvenil.csprojAssemblyReference.cache
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\obj\Debug\WorldSkills_Espaço_Juvenil.Main.resources
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\obj\Debug\WorldSkills_Espaço_Juvenil.Forms.Game.resources
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\obj\Debug\WorldSkills_Espaço_Juvenil.Properties.Resources.resources
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\obj\Debug\WorldSkills Espaço Juvenil.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\obj\Debug\WorldSkills Espaço Juvenil.exe
+C:\Users\Aluno\Desktop\Provas\WorldSkills Espaço Juvenil\obj\Debug\WorldSkills Espaço Juvenil.pdb
