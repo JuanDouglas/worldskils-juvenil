@@ -62,6 +62,8 @@
             this.pic2 = new System.Windows.Forms.PictureBox();
             this.pic1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblPontos = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Redes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ilustrator)).BeginInit();
@@ -90,6 +92,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -117,6 +120,7 @@
             this.Redes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Redes.TabIndex = 7;
             this.Redes.TabStop = false;
+            this.Redes.Click += new System.EventHandler(this.pic_Click);
             // 
             // ilustrator
             // 
@@ -127,6 +131,7 @@
             this.ilustrator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ilustrator.TabIndex = 6;
             this.ilustrator.TabStop = false;
+            this.ilustrator.Click += new System.EventHandler(this.pic_Click);
             // 
             // Cadeira
             // 
@@ -137,6 +142,7 @@
             this.Cadeira.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Cadeira.TabIndex = 5;
             this.Cadeira.TabStop = false;
+            this.Cadeira.Click += new System.EventHandler(this.pic_Click);
             // 
             // Robo
             // 
@@ -147,6 +153,7 @@
             this.Robo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Robo.TabIndex = 4;
             this.Robo.TabStop = false;
+            this.Robo.Click += new System.EventHandler(this.pic_Click);
             // 
             // Carro
             // 
@@ -157,6 +164,7 @@
             this.Carro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Carro.TabIndex = 3;
             this.Carro.TabStop = false;
+            this.Carro.Click += new System.EventHandler(this.pic_Click);
             // 
             // Moda
             // 
@@ -167,6 +175,7 @@
             this.Moda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Moda.TabIndex = 2;
             this.Moda.TabStop = false;
+            this.Moda.Click += new System.EventHandler(this.pic_Click);
             // 
             // Refrigeracao
             // 
@@ -177,6 +186,7 @@
             this.Refrigeracao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Refrigeracao.TabIndex = 1;
             this.Refrigeracao.TabStop = false;
+            this.Refrigeracao.Click += new System.EventHandler(this.pic_Click);
             // 
             // Computador
             // 
@@ -221,6 +231,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Fechar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -291,8 +302,10 @@
             this.pic16.Location = new System.Drawing.Point(171, 171);
             this.pic16.Name = "pic16";
             this.pic16.Size = new System.Drawing.Size(50, 50);
+            this.pic16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic16.TabIndex = 15;
             this.pic16.TabStop = false;
+            this.pic16.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic12
             // 
@@ -300,8 +313,10 @@
             this.pic12.Location = new System.Drawing.Point(171, 115);
             this.pic12.Name = "pic12";
             this.pic12.Size = new System.Drawing.Size(50, 50);
+            this.pic12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic12.TabIndex = 11;
             this.pic12.TabStop = false;
+            this.pic12.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic11
             // 
@@ -309,8 +324,10 @@
             this.pic11.Location = new System.Drawing.Point(115, 115);
             this.pic11.Name = "pic11";
             this.pic11.Size = new System.Drawing.Size(50, 50);
+            this.pic11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic11.TabIndex = 10;
             this.pic11.TabStop = false;
+            this.pic11.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic15
             // 
@@ -318,8 +335,10 @@
             this.pic15.Location = new System.Drawing.Point(115, 171);
             this.pic15.Name = "pic15";
             this.pic15.Size = new System.Drawing.Size(50, 50);
+            this.pic15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic15.TabIndex = 14;
             this.pic15.TabStop = false;
+            this.pic15.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic14
             // 
@@ -327,8 +346,10 @@
             this.pic14.Location = new System.Drawing.Point(59, 171);
             this.pic14.Name = "pic14";
             this.pic14.Size = new System.Drawing.Size(50, 50);
+            this.pic14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic14.TabIndex = 13;
             this.pic14.TabStop = false;
+            this.pic14.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic10
             // 
@@ -336,8 +357,10 @@
             this.pic10.Location = new System.Drawing.Point(59, 115);
             this.pic10.Name = "pic10";
             this.pic10.Size = new System.Drawing.Size(50, 50);
+            this.pic10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic10.TabIndex = 9;
             this.pic10.TabStop = false;
+            this.pic10.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic9
             // 
@@ -345,8 +368,10 @@
             this.pic9.Location = new System.Drawing.Point(3, 115);
             this.pic9.Name = "pic9";
             this.pic9.Size = new System.Drawing.Size(50, 50);
+            this.pic9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic9.TabIndex = 8;
             this.pic9.TabStop = false;
+            this.pic9.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic13
             // 
@@ -354,8 +379,10 @@
             this.pic13.Location = new System.Drawing.Point(3, 171);
             this.pic13.Name = "pic13";
             this.pic13.Size = new System.Drawing.Size(50, 50);
+            this.pic13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic13.TabIndex = 12;
             this.pic13.TabStop = false;
+            this.pic13.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic8
             // 
@@ -363,8 +390,10 @@
             this.pic8.Location = new System.Drawing.Point(171, 59);
             this.pic8.Name = "pic8";
             this.pic8.Size = new System.Drawing.Size(50, 50);
+            this.pic8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic8.TabIndex = 7;
             this.pic8.TabStop = false;
+            this.pic8.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic7
             // 
@@ -372,8 +401,10 @@
             this.pic7.Location = new System.Drawing.Point(115, 59);
             this.pic7.Name = "pic7";
             this.pic7.Size = new System.Drawing.Size(50, 50);
+            this.pic7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic7.TabIndex = 6;
             this.pic7.TabStop = false;
+            this.pic7.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic6
             // 
@@ -381,8 +412,10 @@
             this.pic6.Location = new System.Drawing.Point(59, 59);
             this.pic6.Name = "pic6";
             this.pic6.Size = new System.Drawing.Size(50, 50);
+            this.pic6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic6.TabIndex = 5;
             this.pic6.TabStop = false;
+            this.pic6.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic5
             // 
@@ -390,8 +423,10 @@
             this.pic5.Location = new System.Drawing.Point(3, 59);
             this.pic5.Name = "pic5";
             this.pic5.Size = new System.Drawing.Size(50, 50);
+            this.pic5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic5.TabIndex = 4;
             this.pic5.TabStop = false;
+            this.pic5.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic4
             // 
@@ -399,8 +434,10 @@
             this.pic4.Location = new System.Drawing.Point(171, 3);
             this.pic4.Name = "pic4";
             this.pic4.Size = new System.Drawing.Size(50, 50);
+            this.pic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic4.TabIndex = 3;
             this.pic4.TabStop = false;
+            this.pic4.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic3
             // 
@@ -408,8 +445,10 @@
             this.pic3.Location = new System.Drawing.Point(115, 3);
             this.pic3.Name = "pic3";
             this.pic3.Size = new System.Drawing.Size(50, 50);
+            this.pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic3.TabIndex = 2;
             this.pic3.TabStop = false;
+            this.pic3.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic2
             // 
@@ -417,8 +456,10 @@
             this.pic2.Location = new System.Drawing.Point(59, 3);
             this.pic2.Name = "pic2";
             this.pic2.Size = new System.Drawing.Size(50, 50);
+            this.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic2.TabIndex = 1;
             this.pic2.TabStop = false;
+            this.pic2.Click += new System.EventHandler(this.picGame_Click);
             // 
             // pic1
             // 
@@ -426,16 +467,37 @@
             this.pic1.Location = new System.Drawing.Point(3, 3);
             this.pic1.Name = "pic1";
             this.pic1.Size = new System.Drawing.Size(50, 50);
+            this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic1.TabIndex = 0;
             this.pic1.TabStop = false;
+            this.pic1.Click += new System.EventHandler(this.picGame_Click);
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.lblPontos);
+            this.panel4.Controls.Add(this.label3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(66, 347);
+            this.panel4.Location = new System.Drawing.Point(66, 361);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(378, 45);
+            this.panel4.Size = new System.Drawing.Size(378, 31);
             this.panel4.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Pontos:";
+            // 
+            // lblPontos
+            // 
+            this.lblPontos.AutoSize = true;
+            this.lblPontos.Location = new System.Drawing.Point(48, 12);
+            this.lblPontos.Name = "lblPontos";
+            this.lblPontos.Size = new System.Drawing.Size(0, 13);
+            this.lblPontos.TabIndex = 1;
             // 
             // GameScreen
             // 
@@ -477,12 +539,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Collections.Generic.List<System.Drawing.Image> Images { get; set; }
+
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox Computador;
         private System.Windows.Forms.PictureBox Redes;
@@ -517,5 +581,7 @@
         private System.Windows.Forms.PictureBox pic2;
         private System.Windows.Forms.PictureBox pic1;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label lblPontos;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -22,7 +22,7 @@ namespace WSC_Espaço_juvenil.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace WSC_Espaço_juvenil.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WSC_Espaço_juvenil.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace WSC_Espaço_juvenil.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Automobilística.
         /// </summary>
-        internal static string auto {
+        public static string auto {
             get {
                 return ResourceManager.GetString("auto", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap camiseta {
+        public static System.Drawing.Bitmap camiseta {
             get {
                 object obj = ResourceManager.GetObject("camiseta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -82,7 +82,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap carro {
+        public static System.Drawing.Bitmap carro {
             get {
                 object obj = ResourceManager.GetObject("carro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -92,7 +92,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap computador {
+        public static System.Drawing.Bitmap computador {
             get {
                 object obj = ResourceManager.GetObject("computador", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -102,34 +102,34 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Design gráfico.
         /// </summary>
-        internal static string design {
+        public static string design {
             get {
                 return ResourceManager.GetString("design", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to profissionais que criam banners, identidade visual, folders, campanhas publicitárias esse profissional e criativo e inovador sempre sensível a tudo que ocorre ao seu redor. È um verdadeiro artista..
-        /// </summary>
-        internal static string Design_Gráfico {
-            get {
-                return ResourceManager.GetString("Design Gráfico", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to se você sempre gostou de carros e admira alguém que faz manutenção em alguma oficina agora é a sua vez de ter novas experiências e desconbrir o incrível mundo dos automóveis..
         /// </summary>
-        internal static string DetailAuto {
+        public static string DetailAuto {
             get {
                 return ResourceManager.GetString("DetailAuto", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to profissionais que criam banners, identidade visual, folders, campanhas publicitárias esse profissional e criativo e inovador sempre sensível a tudo que ocorre ao seu redor. È um verdadeiro artista..
+        /// </summary>
+        public static string DetailDesigner {
+            get {
+                return ResourceManager.GetString("DetailDesigner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to temos cursos voltados para constura, mode e desgni com os melhores professores e profissionais do mercado fashion..
         /// </summary>
-        internal static string DetailModa {
+        public static string DetailModa {
             get {
                 return ResourceManager.GetString("DetailModa", resourceCulture);
             }
@@ -138,16 +138,25 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to uma área que inova a cada dia necessitando de novos profissionais para grandes desafios. A área moveleira do SENAI é muito forte sendo referência internacional..
         /// </summary>
-        internal static string DetailMoveis {
+        public static string DetailMoveis {
             get {
                 return ResourceManager.GetString("DetailMoveis", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to uma área promissora de TI. Nela cria-se conexões entre computadores através de protocolos, técnicas e recursos físicos. É um mundo incrível só de ver dois computadores conversando né verdade? Imagine entender a fundo todo o processo de comunicação da grande rede mundial a Internet?.
+        /// </summary>
+        public static string DetailRedes {
+            get {
+                return ResourceManager.GetString("DetailRedes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Faça manutenções em frers, geladeiras e ar condicionado com os melhores profissionais do mundo..
         /// </summary>
-        internal static string DetailRefrigeracao {
+        public static string DetailRefrigeracao {
             get {
                 return ResourceManager.GetString("DetailRefrigeracao", resourceCulture);
             }
@@ -156,7 +165,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to nessa área você aprende a criar robôs. Já pensou criando seu própio robô?.
         /// </summary>
-        internal static string DetailRobotica {
+        public static string DetailRobotica {
             get {
                 return ResourceManager.GetString("DetailRobotica", resourceCulture);
             }
@@ -165,7 +174,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Crie softwares incíveis com as linguagens C# e Java aplicando conhecimentos de banco de dados e engenharia de sistemas..
         /// </summary>
-        internal static string DetailsSolu {
+        public static string DetailsSolu {
             get {
                 return ResourceManager.GetString("DetailsSolu", resourceCulture);
             }
@@ -174,7 +183,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap illustrator {
+        public static System.Drawing.Bitmap illustrator {
             get {
                 object obj = ResourceManager.GetObject("illustrator", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -184,7 +193,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logomarcasenai {
+        public static System.Drawing.Bitmap logomarcasenai {
             get {
                 object obj = ResourceManager.GetObject("logomarcasenai", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -194,7 +203,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap madeira {
+        public static System.Drawing.Bitmap madeira {
             get {
                 object obj = ResourceManager.GetObject("madeira", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -204,7 +213,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Moda e Design.
         /// </summary>
-        internal static string moda {
+        public static string moda {
             get {
                 return ResourceManager.GetString("moda", resourceCulture);
             }
@@ -213,7 +222,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Móveis e Design.
         /// </summary>
-        internal static string moveis {
+        public static string moveis {
             get {
                 return ResourceManager.GetString("moveis", resourceCulture);
             }
@@ -222,7 +231,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap redes {
+        public static System.Drawing.Bitmap redes {
             get {
                 object obj = ResourceManager.GetObject("redes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -230,18 +239,9 @@ namespace WSC_Espaço_juvenil.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to uma área promissora de TI. Nela cria-se conexões entre computadores através de protocolos, técnicas e recursos físicos. É um mundo incrível só de ver dois computadores conversando né verdade? Imagine entender a fundo todo o processo de comunicação da grande rede mundial a Internet?.
-        /// </summary>
-        internal static string Redes_de_computadores {
-            get {
-                return ResourceManager.GetString("Redes de computadores", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Redes de computadores.
         /// </summary>
-        internal static string redesd {
+        public static string redesd {
             get {
                 return ResourceManager.GetString("redesd", resourceCulture);
             }
@@ -250,7 +250,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Refrigeração.
         /// </summary>
-        internal static string refrigeração {
+        public static string refrigeração {
             get {
                 return ResourceManager.GetString("refrigeração", resourceCulture);
             }
@@ -259,7 +259,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap refrigerador {
+        public static System.Drawing.Bitmap refrigerador {
             get {
                 object obj = ResourceManager.GetObject("refrigerador", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -269,7 +269,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap robo {
+        public static System.Drawing.Bitmap robo {
             get {
                 object obj = ResourceManager.GetObject("robo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -279,7 +279,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Robótica e Mecatrônica.
         /// </summary>
-        internal static string robotica {
+        public static string robotica {
             get {
                 return ResourceManager.GetString("robotica", resourceCulture);
             }
@@ -288,7 +288,7 @@ namespace WSC_Espaço_juvenil.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Soluções de Software para negócios.
         /// </summary>
-        internal static string solu {
+        public static string solu {
             get {
                 return ResourceManager.GetString("solu", resourceCulture);
             }
