@@ -1,0 +1,11 @@
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\bin\Debug\WSC Espaço juvenil.exe.config
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\bin\Debug\WSC Espaço juvenil.exe
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\bin\Debug\WSC Espaço juvenil.pdb
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\obj\Debug\WSC Espaço juvenil.csprojAssemblyReference.cache
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\obj\Debug\WSC_Espaço_juvenil.Main.resources
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\obj\Debug\WSC_Espaço_juvenil.Properties.Resources.resources
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\obj\Debug\WSC Espaço juvenil.csproj.GenerateResource.cache
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\obj\Debug\WSC Espaço juvenil.exe
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\obj\Debug\WSC Espaço juvenil.pdb
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\obj\Debug\WSC_Espaço_juvenil.Forms.PopUpDetails.resources
+C:\Users\Juan Douglas Game\source\repos\WSC Espaço juvenil\WSC Espaço juvenil\obj\Debug\WSC_Espaço_juvenil.Forms.GameScreen.resources
